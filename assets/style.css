@@ -15,6 +15,10 @@ header {
     height: 330px;
 }
 
+.card-content {
+    height: 140px;
+}
+
 #banner {
     padding-top: 7px;
 }
