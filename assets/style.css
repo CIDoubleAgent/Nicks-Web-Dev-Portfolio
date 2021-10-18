@@ -2,3 +2,36 @@ body {
     background-image:url("https://github.com/CIDoubleAgent/Nicks-Web-Dev-Portfolio/blob/main/images/walpaper-light-tile.jpg?raw=true");
     background-color: #cccccc;
 }
+
+header {
+    padding-top: 1px;
+}
+
+#banner {
+    padding-top: 7px;
+}
+
+#subtitle {
+    padding-right: 4px;
+    padding-bottom: 8px;
+
+}
+
+#about-me-card,
+#profile-image,
+.hoverable {
+    border: solid;
+    border-color: #0277bd;
+}
+
+#contact-info {
+    margin-bottom: 120px;
+}
+
+#small-text {
+    font-weight: bold;
+}
+
+#page-footer {
+    padding-bottom: 20px;
+}

@@ -21,29 +21,28 @@
 <body>
 
     <header class="row grey darken-3">
-        <div>
-            <h2 class="light-blue-text text-lighten-1">
+        <div id="banner">
+            <h2 class="light-blue-text">
                 Nicholas Zabkar's
             </h2>
             
             <h4>
-                <span class="right grey-text text-lighten-4">Web Developer Portfolio</span>
+                <span id="subtitle" class="right grey-text text-lighten-4">Web Developer Portfolio</span>
             </h4>
         </div>
-        
         
         <nav class="col 12 grey lighten-2">
             <div>
                 <ul>
-                    <a class="col 4 light-blue-text text-darken-2" href="#about-me">
+                    <a id="small-text" class="col 4 light-blue-text text-darken-3" href="#about-me">
                         &nbsp; About Me &nbsp;
                     </a>
                 
-                    <a class="col 4 light-blue-text text-darken-2" href="#work">
+                    <a id="small-text" class="col 4 light-blue-text text-darken-3" href="#work">
                         &nbsp; Work &nbsp;
                     </a>
                 
-                    <a class="col 4 light-blue-text text-darken-2" href="#contact-me">
+                    <a id="small-text" class="col 4 light-blue-text text-darken-3" href="#contact-me">
                         &nbsp; Contact Me &nbsp;
                     </a>
                 </ul>
@@ -51,37 +50,38 @@
         </nav>
     </header>
 
-    <div class="container">
-        <h3 class="center-align light-blue-text text-darken-2">
+    <div id="about-me" class="container">
+        <h3 class="center-align light-blue-text text-darken-3">
             About Me <i class="material-icons">folder_shared</i>
         </h3>
-        <section id="about-me" class="row valign-wrapper">
+        <section class="row valign-wrapper">
             <div class="col s12 m3">
                 <img id="profile-image" class="responsive-img circle" src="https://github.com/CIDoubleAgent/Nicks-Web-Dev-Portfolio/blob/main/images/profilePicMe_1.jpg?raw=true" alt="Nicholas Zabkar">
             </div>
-            <p class="card col s12 m9">
+            <p id="about-me-card" class="card col s12 m9">
                 I am a 35 year old web developer from Dover, NH and have been a carpenter by trade for most of my career. My hobbies include hiking the many beautiful trails and mountains of New Hampshire, playing basketball, cycling, wakeboarding, enjoying craft beer, and poking holes in movie plots.
             </p>
         </section>
 
         
-        <div class="divider grey"></div>
-        <h3 class="center-align light-blue-text text-darken-2">
+        <div id="work" class="divider grey"></div>
+        <h3 class="center-align light-blue-text text-darken-3">
             Work <i class="material-icons">work</i>
         </h3>
-        <section id="work" class="row">
+        <section class="row">
             <article class="col s12 m6">
                 <div class="card hoverable">
                     <div class="card-image">
-                        <img src="images/sample-1.jpg">
-                        <span class="card-title light-blue-text text-darken-2">Crypt-ID</span>
+                        <img class="responsive-img circle" src="https://github.com/CIDoubleAgent/Nicks-Web-Dev-Portfolio/blob/main/images/Crypt-ID_1.png?raw=true">
+                        <span class="card-title light-blue-text text-darken-3" style="font-weight: bolder;">Crypt-ID</span>
                     </div>
                     <div class="card-content">
                         <p>I am a very simple card. I am good at containing small bits of information.
                             I am convenient because I require little markup to use effectively.</p>
                     </div>
                     <div class="card-action">
-                        <a href="#">This is a link</a>
+                        <a href="https://sleepy-island-20575.herokuapp.com/">Deployed Application</a>
+                        <a class="right" href="#">GitHub Repository</a>
                     </div>
                 </div>
             </article>
@@ -89,15 +89,16 @@
             <article class="col s12 m6">
                 <div class="card hoverable">
                     <div class="card-image">
-                        <img src="images/sample-1.jpg">
-                        <span class="card-title light-blue-text text-darken-2">Kan(way)e</span>
+                        <img class="responsive-img circle" src="https://github.com/CIDoubleAgent/Nicks-Web-Dev-Portfolio/blob/main/images/Kan(way)e_1.png?raw=true">
+                        <span class="card-title light-blue-text text-darken-3" style="font-weight: bolder;">Kan(way)e</span>
                     </div>
                     <div class="card-content">
                         <p>I am a very simple card. I am good at containing small bits of information.
                             I am convenient because I require little markup to use effectively.</p>
                     </div>
                     <div class="card-action">
-                        <a href="#">This is a link</a>
+                        <a href="https://kelley-mcd.github.io/STANK-Music/">Deployed Application</a>
+                        <a class="right" href="https://github.com/CIDoubleAgent/STANK-Music">GitHub Repository</a>
                     </div>
                 </div>
             </article>
@@ -105,15 +106,16 @@
             <article class="col s12 m6">
                 <div class="card hoverable">
                     <div class="card-image">
-                        <img src="images/sample-1.jpg">
-                        <span class="card-title light-blue-text text-darken-2">Weather Dashboard</span>
+                        <img class="responsive-img circle" src="https://github.com/CIDoubleAgent/Nicks-Web-Dev-Portfolio/blob/main/images/Weather%20Dash_2.png?raw=true">
+                        <span class="card-title light-blue-text text-darken-3" style="font-weight: bolder;">Weather Dashboard</span>
                     </div>
                     <div class="card-content">
                         <p>I am a very simple card. I am good at containing small bits of information.
                             I am convenient because I require little markup to use effectively.</p>
                     </div>
                     <div class="card-action">
-                        <a href="#">This is a link</a>
+                        <a href="https://cidoubleagent.github.io/weather-dashboard/">Deployed Application</a>
+                        <a class="right" href="https://github.com/CIDoubleAgent/weather-dashboard">GitHub Repository</a>
                     </div>
                 </div>
             </article>
@@ -121,44 +123,45 @@
             <article class="col s12 m6">
                 <div class="card hoverable">
                     <div class="card-image">
-                        <img src="images/sample-1.jpg">
-                        <span class="card-title light-blue-text text-darken-2">Work Day Scheduler</span>
+                        <img class="responsive-img circle" src="https://github.com/CIDoubleAgent/Nicks-Web-Dev-Portfolio/blob/main/images/Work%20Day%20Scheduler_1%20(2).png?raw=true">
+                        <span class="card-title light-blue-text text-darken-3" style="font-weight: bolder;">Note Taker</span>
                     </div>
                     <div class="card-content">
                         <p>I am a very simple card. I am good at containing small bits of information.
                             I am convenient because I require little markup to use effectively.</p>
                     </div>
                     <div class="card-action">
-                        <a href="#">This is a link</a>
+                        <a href="https://lit-fortress-73592.herokuapp.com/notes">Deployed Application</a>
+                        <a class="right" href="https://github.com/CIDoubleAgent/Note-Taker">GitHub Repository</a>
                     </div>
                 </div>
             </article>
         </section>
 
         
-        <div class="divider grey"></div>
-        <h3 class="center-align light-blue-text text-darken-2">
+        <div id="contact-me" class="divider grey"></div>
+        <h3 class="center-align light-blue-text text-darken-3">
             Contact Me <i class="material-icons">phone_in_talk</i>
         </h3>
-        <section id="contact-me" class="center-align">
+        <section id="contact-info" class="center-align">
             <div class="col 12">
-                <a class="light-blue-text text-darken-2">
+                <a id="small-text" class="light-blue-text text-darken-3">
                     &nbsp; (603)&nbsp;988&#8209;4744 &nbsp;
                 </a>
             
-                <a class="light-blue-text text-darken-2" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nzabkar51@gmail.com">
+                <a id="small-text" class="light-blue-text text-darken-3" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nzabkar51@gmail.com">
                     &nbsp; nzabkar51@gmail.com &nbsp;
                 </a>
             
-                <a class="light-blue-text text-darken-2" href="https://github.com/CIDoubleAgent">
+                <a id="small-text" class="light-blue-text text-darken-3" href="https://github.com/CIDoubleAgent">
                     &nbsp; GitHub &nbsp;
                 </a>
             
-                <a class="light-blue-text text-darken-2" href="https://www.linkedin.com/in/nicholas-zabkar-a730b457/">
+                <a id="small-text" class="light-blue-text text-darken-3" href="https://www.linkedin.com/in/nicholas-zabkar-a730b457/">
                     &nbsp; LinkedIn &nbsp;
                 </a>
         
-                <a class="light-blue-text text-darken-2" href="https://docs.google.com/document/d/1IHctUDXitDshLIJZ_pgVyyoPuoAp94CtnxQC489VYgs/edit?usp=sharing">
+                <a id="small-text" class="light-blue-text text-darken-3" href="https://docs.google.com/document/d/1IHctUDXitDshLIJZ_pgVyyoPuoAp94CtnxQC489VYgs/edit?usp=sharing">
                     &nbsp; Resume &nbsp;
                 </a>
             </div>
@@ -166,8 +169,8 @@
     </div>
 
     <footer>
-        <div class="page-footer light-blue darken-2">
-            <div class="container center-align">
+        <div class="page-footer light-blue darken-3">
+            <div id="page-footer" class="container center-align">
             © 2021 Nicholas Zabkar
             </div>
           </div>
