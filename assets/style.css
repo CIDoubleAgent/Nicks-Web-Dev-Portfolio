@@ -36,6 +36,12 @@ header {
     border-color: #0277bd;
 }
 
+#about-me-card:hover,
+#profile-image:hover,
+.hoverable:hover {
+    border-color: #03a9f4;
+}
+
 #contact-info {
     margin-bottom: 200px;
 }
