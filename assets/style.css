@@ -3,8 +3,16 @@ body {
     background-color: #cccccc;
 }
 
+p {
+    font-size: 25px;
+}
+
 header {
     padding-top: 1px;
+}
+
+#thumbnail {
+    height: 330px;
 }
 
 #banner {
@@ -25,11 +33,17 @@ header {
 }
 
 #contact-info {
-    margin-bottom: 120px;
+    margin-bottom: 200px;
 }
 
 #small-text {
     font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-text {
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 #page-footer {
